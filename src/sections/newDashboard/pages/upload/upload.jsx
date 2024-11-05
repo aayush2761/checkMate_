@@ -208,7 +208,7 @@ function Profile() {
                         <h1 className="font-albulaHeavy text-3xl text-slate-800 mb-6">Upload Documents</h1>
                         
                         <p className="text-sm text-gray-600 mb-4 mt-16">
-                            The document upload process in KeyVault is designed to be <span className="text-violet-600 font-semibold">secure</span>, 
+                            The document upload process in Check Mate is designed to be <span className="text-violet-600 font-semibold">secure</span>, 
                             <span className="text-violet-600 font-semibold">efficient</span>, and <span className="text-violet-600 font-semibold">user-friendly</span>. 
                             Here’s a breakdown of each step:
                         </p>

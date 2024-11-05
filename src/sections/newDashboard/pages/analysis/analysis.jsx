@@ -62,7 +62,7 @@ function Analysis() {
                         <p className="text-slate-500 mt-3 ml-1 font-albulaMedium">{today}</p>
 
                         <p className="text-md text-gray-600 font-albulaRegular mt-8">
-                            Welcome to <span className="text-violet-600">KeyVault</span>! Securely manage, upload, and access all your important documents in one place. 
+                            Welcome to <span className="text-violet-600">CheckMate</span>! Securely manage, upload, and access all your important documents in one place. 
                             With <span className="text-violet-600">decentralized storage</span> and <span className="text-violet-600">advanced security</span> features, 
                             your data is always protected and readily available at your fingertips.
                         </p>
@@ -77,7 +77,7 @@ function Analysis() {
                                     <h1 className='font-albulaHeavy text-2xl text-slate-700'>Document Logs</h1>
                                 </div>
 
-                                <div className="h-[400px]"> {/* Add these classes for scrolling */}
+                                <div className="h-[400px]">
                                     <div className="grid grid-cols-4 gap-4 py-4 border-b border-gray-300 text-slate-500 font-albulaMedium">
                                         <p className="font-albulaMedium">Document Type</p>
                                         <p className="font-albulaMedium text-center mr-8">Status</p>
