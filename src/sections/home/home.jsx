@@ -92,17 +92,16 @@ function Home() {
                             </div>
 
 
-                            <div className="font-albulaExtraLight text-xs md:text-sm lg:text-[10px] xl:text-[12px] lg:mt-[20px] xl:mt-[40px] uppercase tracking-[2px] lg:tracking-[2px]">
+                            <div className="font-albulaExtraLight text-xs md:text-sm lg:text-[10px] xl:text-[12px] 2xl:text-[15px] lg:mt-[20px] xl:mt-[40px] uppercase tracking-[2px] lg:tracking-[2px]">
                                 Streamlining Document Verification Process with Unmatched Efficiency
                             </div>
                             
-                            <p className="mt-[15px] md:mt-[20px] lg:mt-[25px] lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-[2px] md:tracking-[3px]">
-                                Empowering You to Verify Your Documents with <br />
-                                <div><span className="text-[#6536ff]">{typeEffect}</span>|</div>
+                            <p className="mt-[15px] md:mt-[20px] lg:mt-[25px] lg:text-4xl xl:text-5xl 2xl:text-7xl tracking-[2px] md:tracking-[3px]">
+                                Empowering You to Verify Your Documents with <span className="text-[#6536ff]">{typeEffect}</span>|
                             </p>
                         </div>
 
-                        <div className='mt-[40px] xl:mt-[60px]'>
+                        <div className='mt-[40px] xl:mt-[60px] 2xl:mt-[80px]'>
                             {isAuthenticated ? (
                                 <div className="flex flex-row justify-center items-center gap-4 mt-[80px]">
                                     <NavLink to="/dashboard/analysis" className="styled-button w-[250px]">Jump To Dashboard</NavLink>
@@ -114,7 +113,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <Lottie animationData={LandingIllustration} loop={true} className="transform scale-150 w-fit h-fit -ml-18"/>
+                    <Lottie animationData={LandingIllustration} loop={true} className="transform scale-150 w-fit h-fit"/>
                 </div>
 
                 {/* About Section */}
