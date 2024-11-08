@@ -1,10 +1,6 @@
 .dark-gradient-background {
     position: absolute;
     z-index: -10;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
     background: linear-gradient(135deg, 
         #16001e,
         #002025,  
