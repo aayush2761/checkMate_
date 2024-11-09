@@ -37,7 +37,7 @@ function Header() {
 	}, []);
 
 	return (
-		<header className={`fixed w-screen h- ${navbarHeight} px-14 bg-opacity-10 backdrop-blur-lg transition-all duration-300 flex flex-row justify-between items-center border-b border-black border-opacity-20 z-50`}>
+		<header className={`fixed w-screen ${navbarHeight} px-14 bg-opacity-10 backdrop-blur-lg transition-all duration-300 flex flex-row justify-between items-center border-b border-black border-opacity-20 z-50`}>
 			<div className={`cursor-pointer ${textColor}`}>
 				<span className="font-noirProBold text-5xl">CHECK </span>
 				<span className="font-noirProRegular text-5xl tracking-widest italic" style={{ color: '#6536ff' }}>MATE</span>
