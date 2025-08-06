@@ -1,6 +1,5 @@
 
 # Check Mate
-Deployed link ---> https://checkstudio.vercel.app/
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -49,7 +48,7 @@ Follow these steps to set up the project on your local machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/trulyaman25/checkMate.git
+   git clone https://github.com/ansh-d23/checkMate.git
    ```
 
 2. **Install React dependencies:**
@@ -58,29 +57,14 @@ Follow these steps to set up the project on your local machine:
    npm install
    ```
 
-3. **Create a `.env` file:** Add the following configuration:
-   ```plaintext
-   // For MongoDB and Backend
-   SERVER_PORT=5000
-   MONGO_URI=mongodb+srv://<username>:<password>@cluster0.vygshnz.mongodb.net/checkMate
-
-   // For Auth0 Authentication
-   VITE_AUTH0_DOMAIN=<your_auth0_domain>
-   VITE_AUTH0_CLIENT_ID=<your_auth0_client_id>
-
-   // For IPFS Storage
-   VITE_PINATA_API_KEY=<your_pinata_api_key>
-   VITE_PINATA_SECRET_KEY=<your_pinata_secret_key>
-   ```
-
-4. **Set up the backend:**
+3. **Set up the backend:**
    ```bash
    cd engine
    python -m venv .venv
    pip install -r requirements.txt
    ```
 
-5. **Relocate to root directory:**
+4. **Relocate to root directory:**
    ```
    cd ..
    ```
@@ -106,3 +90,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Ansh Shrivastav** - [GitHub](https://github.com/ansh-d23)
 - **Sparsh Jaggi** - [GitHub](https://github.com/sparshjaggi07)
 - **Aayush Gupta** - [GitHub](https://github.com/aayush2761)
+
+## Images
+  ![image](./src/assets/readme/1.png)
+  ![image](./src/assets/readme/2.png)
+  ![image](./src/assets/readme/3.png)
+  ![image](./src/assets/readme/4.png)
+  ![image](./src/assets/readme/5.png)
+  ![image](./src/assets/readme/6.png)
